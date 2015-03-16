@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C148B5921A99001F0009BD55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C148B5911A99001F0009BD55 /* main.m */; };
+		C148B5951A99001F0009BD55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C148B5941A99001F0009BD55 /* AppDelegate.m */; };
+		C148B5981A99001F0009BD55 /* corabbit_ios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C148B5961A99001F0009BD55 /* corabbit_ios.xcdatamodeld */; };
+		C148B59E1A99001F0009BD55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C148B59C1A99001F0009BD55 /* Main.storyboard */; };
+		C148B5A01A99001F0009BD55 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C148B59F1A99001F0009BD55 /* Images.xcassets */; };
+		C148B5A31A99001F0009BD55 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C148B5A11A99001F0009BD55 /* LaunchScreen.xib */; };
+		C148B5AF1A99001F0009BD55 /* corabbit_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C148B5AE1A99001F0009BD55 /* corabbit_iosTests.m */; };
+		C148B5BA1A99D7450009BD55 /* Dashboard.m in Sources */ = {isa = PBXBuildFile; fileRef = C148B5B91A99D7450009BD55 /* Dashboard.m */; };
+		C148B5BC1A99F4FF0009BD55 /* corabbit.png in Resources */ = {isa = PBXBuildFile; fileRef = C148B5BB1A99F4FF0009BD55 /* corabbit.png */; };
+		C148B5BF1A9A212A0009BD55 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C148B5BE1A9A212A0009BD55 /* LoginViewController.m */; };
+		C148B5C21A9A22910009BD55 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C148B5C11A9A22910009BD55 /* MainViewController.m */; };
+		C148B5C51A9A2AA70009BD55 /* Login.m in Sources */ = {isa = PBXBuildFile; fileRef = C148B5C41A9A2AA70009BD55 /* Login.m */; };
+		C18A927E1A9C9BE900FA5CAE /* EnvironmentVariables.m in Sources */ = {isa = PBXBuildFile; fileRef = C18A927D1A9C9BE900FA5CAE /* EnvironmentVariables.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C148B5A91A99001F0009BD55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C148B5841A99001F0009BD55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C148B58B1A99001F0009BD55;
+			remoteInfo = "corabbit-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C148B58C1A99001F0009BD55 /* corabbit-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "corabbit-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C148B5901A99001F0009BD55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C148B5911A99001F0009BD55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C148B5931A99001F0009BD55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C148B5941A99001F0009BD55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C148B5971A99001F0009BD55 /* corabbit_ios.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = corabbit_ios.xcdatamodel; sourceTree = "<group>"; };
+		C148B59D1A99001F0009BD55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C148B59F1A99001F0009BD55 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C148B5A21A99001F0009BD55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C148B5A81A99001F0009BD55 /* corabbit-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "corabbit-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C148B5AD1A99001F0009BD55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C148B5AE1A99001F0009BD55 /* corabbit_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = corabbit_iosTests.m; sourceTree = "<group>"; };
+		C148B5B81A99D7450009BD55 /* Dashboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dashboard.h; sourceTree = "<group>"; };
+		C148B5B91A99D7450009BD55 /* Dashboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dashboard.m; sourceTree = "<group>"; };
+		C148B5BB1A99F4FF0009BD55 /* corabbit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = corabbit.png; path = assets/corabbit.png; sourceTree = "<group>"; };
+		C148B5BD1A9A212A0009BD55 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		C148B5BE1A9A212A0009BD55 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		C148B5C01A9A22910009BD55 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		C148B5C11A9A22910009BD55 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		C148B5C31A9A2AA70009BD55 /* Login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Login.h; sourceTree = "<group>"; };
+		C148B5C41A9A2AA70009BD55 /* Login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Login.m; sourceTree = "<group>"; };
+		C18A927C1A9C9BE900FA5CAE /* EnvironmentVariables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnvironmentVariables.h; sourceTree = "<group>"; };
+		C18A927D1A9C9BE900FA5CAE /* EnvironmentVariables.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnvironmentVariables.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C148B5891A99001F0009BD55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C148B5A51A99001F0009BD55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C148B5831A99001F0009BD55 = {
+			isa = PBXGroup;
+			children = (
+				C148B58E1A99001F0009BD55 /* corabbit-ios */,
+				C148B5AB1A99001F0009BD55 /* corabbit-iosTests */,
+				C148B58D1A99001F0009BD55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C148B58D1A99001F0009BD55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C148B58C1A99001F0009BD55 /* corabbit-ios.app */,
+				C148B5A81A99001F0009BD55 /* corabbit-iosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C148B58E1A99001F0009BD55 /* corabbit-ios */ = {
+			isa = PBXGroup;
+			children = (
+				C18A927F1A9C9DDB00FA5CAE /* views */,
+				C18A927B1A9C9AE300FA5CAE /* config */,
+				C148B5931A99001F0009BD55 /* AppDelegate.h */,
+				C148B5941A99001F0009BD55 /* AppDelegate.m */,
+				C148B5961A99001F0009BD55 /* corabbit_ios.xcdatamodeld */,
+				C148B5B81A99D7450009BD55 /* Dashboard.h */,
+				C148B5B91A99D7450009BD55 /* Dashboard.m */,
+				C148B59F1A99001F0009BD55 /* Images.xcassets */,
+				C148B5A11A99001F0009BD55 /* LaunchScreen.xib */,
+				C148B5C31A9A2AA70009BD55 /* Login.h */,
+				C148B5C41A9A2AA70009BD55 /* Login.m */,
+				C148B5BD1A9A212A0009BD55 /* LoginViewController.h */,
+				C148B5BE1A9A212A0009BD55 /* LoginViewController.m */,
+				C148B59C1A99001F0009BD55 /* Main.storyboard */,
+				C148B5C01A9A22910009BD55 /* MainViewController.h */,
+				C148B5C11A9A22910009BD55 /* MainViewController.m */,
+				C148B58F1A99001F0009BD55 /* Supporting Files */,
+			);
+			path = "corabbit-ios";
+			sourceTree = "<group>";
+		};
+		C148B58F1A99001F0009BD55 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C148B5BB1A99F4FF0009BD55 /* corabbit.png */,
+				C148B5901A99001F0009BD55 /* Info.plist */,
+				C148B5911A99001F0009BD55 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C148B5AB1A99001F0009BD55 /* corabbit-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				C148B5AE1A99001F0009BD55 /* corabbit_iosTests.m */,
+				C148B5AC1A99001F0009BD55 /* Supporting Files */,
+			);
+			path = "corabbit-iosTests";
+			sourceTree = "<group>";
+		};
+		C148B5AC1A99001F0009BD55 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C148B5AD1A99001F0009BD55 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C18A927B1A9C9AE300FA5CAE /* config */ = {
+			isa = PBXGroup;
+			children = (
+				C18A927C1A9C9BE900FA5CAE /* EnvironmentVariables.h */,
+				C18A927D1A9C9BE900FA5CAE /* EnvironmentVariables.m */,
+			);
+			name = config;
+			sourceTree = "<group>";
+		};
+		C18A927F1A9C9DDB00FA5CAE /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C148B58B1A99001F0009BD55 /* corabbit-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C148B5B21A99001F0009BD55 /* Build configuration list for PBXNativeTarget "corabbit-ios" */;
+			buildPhases = (
+				C148B5881A99001F0009BD55 /* Sources */,
+				C148B5891A99001F0009BD55 /* Frameworks */,
+				C148B58A1A99001F0009BD55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "corabbit-ios";
+			productName = "corabbit-ios";
+			productReference = C148B58C1A99001F0009BD55 /* corabbit-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C148B5A71A99001F0009BD55 /* corabbit-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C148B5B51A99001F0009BD55 /* Build configuration list for PBXNativeTarget "corabbit-iosTests" */;
+			buildPhases = (
+				C148B5A41A99001F0009BD55 /* Sources */,
+				C148B5A51A99001F0009BD55 /* Frameworks */,
+				C148B5A61A99001F0009BD55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C148B5AA1A99001F0009BD55 /* PBXTargetDependency */,
+			);
+			name = "corabbit-iosTests";
+			productName = "corabbit-iosTests";
+			productReference = C148B5A81A99001F0009BD55 /* corabbit-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C148B5841A99001F0009BD55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Caven Cade Mitchell";
+				TargetAttributes = {
+					C148B58B1A99001F0009BD55 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					C148B5A71A99001F0009BD55 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = C148B58B1A99001F0009BD55;
+					};
+				};
+			};
+			buildConfigurationList = C148B5871A99001F0009BD55 /* Build configuration list for PBXProject "corabbit-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C148B5831A99001F0009BD55;
+			productRefGroup = C148B58D1A99001F0009BD55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C148B58B1A99001F0009BD55 /* corabbit-ios */,
+				C148B5A71A99001F0009BD55 /* corabbit-iosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C148B58A1A99001F0009BD55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C148B59E1A99001F0009BD55 /* Main.storyboard in Resources */,
+				C148B5BC1A99F4FF0009BD55 /* corabbit.png in Resources */,
+				C148B5A31A99001F0009BD55 /* LaunchScreen.xib in Resources */,
+				C148B5A01A99001F0009BD55 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C148B5A61A99001F0009BD55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C148B5881A99001F0009BD55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C148B5951A99001F0009BD55 /* AppDelegate.m in Sources */,
+				C148B5C21A9A22910009BD55 /* MainViewController.m in Sources */,
+				C148B5981A99001F0009BD55 /* corabbit_ios.xcdatamodeld in Sources */,
+				C148B5C51A9A2AA70009BD55 /* Login.m in Sources */,
+				C148B5921A99001F0009BD55 /* main.m in Sources */,
+				C148B5BA1A99D7450009BD55 /* Dashboard.m in Sources */,
+				C148B5BF1A9A212A0009BD55 /* LoginViewController.m in Sources */,
+				C18A927E1A9C9BE900FA5CAE /* EnvironmentVariables.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C148B5A41A99001F0009BD55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C148B5AF1A99001F0009BD55 /* corabbit_iosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C148B5AA1A99001F0009BD55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C148B58B1A99001F0009BD55 /* corabbit-ios */;
+			targetProxy = C148B5A91A99001F0009BD55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C148B59C1A99001F0009BD55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C148B59D1A99001F0009BD55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C148B5A11A99001F0009BD55 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C148B5A21A99001F0009BD55 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C148B5B01A99001F0009BD55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C148B5B11A99001F0009BD55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C148B5B31A99001F0009BD55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "corabbit-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C148B5B41A99001F0009BD55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "corabbit-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C148B5B61A99001F0009BD55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "corabbit-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/corabbit-ios.app/corabbit-ios";
+			};
+			name = Debug;
+		};
+		C148B5B71A99001F0009BD55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "corabbit-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/corabbit-ios.app/corabbit-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C148B5871A99001F0009BD55 /* Build configuration list for PBXProject "corabbit-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C148B5B01A99001F0009BD55 /* Debug */,
+				C148B5B11A99001F0009BD55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C148B5B21A99001F0009BD55 /* Build configuration list for PBXNativeTarget "corabbit-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C148B5B31A99001F0009BD55 /* Debug */,
+				C148B5B41A99001F0009BD55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C148B5B51A99001F0009BD55 /* Build configuration list for PBXNativeTarget "corabbit-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C148B5B61A99001F0009BD55 /* Debug */,
+				C148B5B71A99001F0009BD55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C148B5961A99001F0009BD55 /* corabbit_ios.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C148B5971A99001F0009BD55 /* corabbit_ios.xcdatamodel */,
+			);
+			currentVersion = C148B5971A99001F0009BD55 /* corabbit_ios.xcdatamodel */;
+			path = corabbit_ios.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C148B5841A99001F0009BD55 /* Project object */;
+}
